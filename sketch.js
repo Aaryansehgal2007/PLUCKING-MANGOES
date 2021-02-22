@@ -25,7 +25,7 @@ function setup() {
   mango7 = new Mango(1150,280,30);
   tree = new Tree(1150,680);
   ground = new Ground(0,680,4000,20);
-	boy = new Boy(250,600,100,250);
+	boy = new Boy(170,600,200,250);
 	chain = new Chain(stone.body,boy.body{x:160, y:500});
 
 	Engine.run(engine);
