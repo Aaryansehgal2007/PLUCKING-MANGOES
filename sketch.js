@@ -29,8 +29,7 @@ function setup() {
 	chain = new Chain(stone.body,{x:160, y:500});
 
 	Engine.run(engine);
-  
-}
+  }
 
 
 function draw() {
